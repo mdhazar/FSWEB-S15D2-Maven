@@ -3,7 +3,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-
+import static org.hamcrest.MatcherAssert.assertThat;
 import java.lang.reflect.Field;
 import java.util.HashSet;
 import java.util.List;
